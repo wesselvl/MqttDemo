@@ -1,0 +1,3 @@
+A model of an MQTT-based sensor/light setup for a skatepark. I added a little bit of scalability for fun and practice. For the purposes of the demo, there is one bright light on the south side of the skatepark, as well as two less bright ones on the north side. They can be controlled by any number of simulated motion sensors.
+
+To play with the model, run one instance of MqttDemoControl and any number of MqttDemoSensor instances. Only the "north" and "south" locations (as prompted by the sensor app) have lights associated with them. Automatic mode will cause motion to be detected during random intervals. Manual mode simply functions as an on/off switch.
